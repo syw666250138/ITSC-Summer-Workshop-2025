@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
 
     # 使用示例：
-    custom_img = load_custom_image("/Users/ywsun/Desktop/pythonProject/ITSC/samples/IMG_2618 小.png")
+    custom_img = load_custom_image("file path to your image")
     predicted_num, confidence = predict_image(model, custom_img)
     print(f"Prediction: {predicted_num} (Confidence: {confidence * 100:.1f}%)")
     display_prediction(custom_img, predicted_num, confidence)
